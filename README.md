@@ -3,7 +3,6 @@
 ![Language](https://img.shields.io/badge/Language-C-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-Ubuntu%20Linux-orange.svg)
 ![Threads](https://img.shields.io/badge/Library-POSIX%20pthreads-green.svg)
-![License](https://img.shields.io/badge/License-MIT-lightgrey.svg)
 
 A console-based simulation of the classical **Producer–Consumer problem** (bounded-buffer problem) using POSIX threads, a mutex, and two counting semaphores on Ubuntu Linux. Multiple producer threads generate data items and place them into a shared fixed-size buffer while multiple consumer threads remove and process those items — all safely synchronised to prevent race conditions, overflow, and underflow.
 
@@ -287,5 +286,3 @@ This project is released under the MIT License. Feel free to use, modify, and le
 Created as part of an Operating Systems course project demonstrating concurrency and synchronisation in C.
 
 ---
-
-<p align="center">⭐ If this helped you, consider starring the repo!</p>
